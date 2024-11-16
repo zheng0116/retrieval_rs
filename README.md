@@ -2,7 +2,7 @@
  <strong>[中文](./README_zh.md) |
     English</strong>
 ## Overview
-A fast and efficient image search tool using CLIP model to compute similarity between text and images, implemented in Rust. This tool allows you to search images using natural language by calculating cosine similarity between CLIP embeddings.
+A fast and efficient image retrieval tool using CLIP model to compute similarity between text and images, implemented in Rust. This tool allows you to search images using natural language by calculating cosine similarity between CLIP embeddings.
 
 ## Features
 
