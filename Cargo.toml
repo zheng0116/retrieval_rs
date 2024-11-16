@@ -1,0 +1,20 @@
+[package]
+name = "retrieval_rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+candle-core = { git = "https://github.com/huggingface/candle.git", version = "0.8.0", features = ["accelerate"] }
+candle = { package = "candle-core", version = "0.8.0" }
+candle-nn = {version = "0.8.0",features = ["accelerate"]}
+candle-transformers = "0.8.0"
+clap = {version = "4.5.20",features = ["derive"]}
+hf-hub = "0.3"
+candle-examples = "0.8.0"
+tokenizers = "0.20.3"
+image = { version = "0.25.2", default-features = false, features = ["jpeg", "png"] }
+imageproc = { version = "0.24.0", default-features = false }
+walkdir = "2.3"
+serde = "1.0.215"
+serde_json = "1.0.132"
