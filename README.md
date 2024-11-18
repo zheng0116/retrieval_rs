@@ -1,10 +1,14 @@
 # Image retrieval with CLIP
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-AGPL3.0-blue)
+![Rust Version](https://img.shields.io/badge/rust-1.80.1-blue)
+ 
  <strong>[中文](./README_zh.md) |
     English</strong>
-## Overview
+## 🌟 Introduction
 A fast and efficient image retrieval tool using CLIP model to compute similarity between text and images, implemented in Rust. This tool allows you to search images using natural language by calculating cosine similarity between CLIP embeddings.
 
-## Features
+## 🚀 Features
 
 - Text-to-image search using natural language queries
 - Fast image processing with batch operations
